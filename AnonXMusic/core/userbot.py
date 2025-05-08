@@ -65,8 +65,8 @@ class Userbot(Client):
             try:
                 await self.one.join_chat("mamaklidili")
                 await self.one.join_chat("konusulanlarsohbet")
-                await self.one.join_chat("xsobeh")
-                await self.one.join_chat("bblackRose1")
+                await self.one.join_chat("burcundiyorki")
+                await self.one.join_chat("realisthbr")
 
             except:
                 pass
