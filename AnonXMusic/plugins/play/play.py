@@ -32,7 +32,6 @@ from config import BANNED_USERS, lyrical
             "voynat",
             "coynat",
             "cvoynat",
-            "kendime",
             "karamamba",
             "playforce",
             "vplayforce",
