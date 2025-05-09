@@ -1,7 +1,8 @@
 import random
 
-from ChampuMusic import userbot
-from ChampuMusic.core.mongo import mongodb
+from AnonXMusic import userbot
+from AnonXMusic.core.mongo import mongodb
+
 
 db = mongodb.assistants
 
