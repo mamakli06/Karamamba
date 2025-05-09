@@ -6,5 +6,3 @@ from .formatters import *
 from .inline import *
 from .pastebin import *
 from .sys import *
-from .memorydatabase.py import *
-from .mongodatabase.py import *
