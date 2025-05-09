@@ -69,11 +69,20 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 
 BANNED_USERS = filters.user()
+BANNED_USERS = filters.user()
+YTDOWNLOADER = 1
+LOG = 2
+LOG_FILE_NAME = "musiclogs.txt"
+TEMP_DB_FOLDER = "tempdb"
 adminlist = {}
 lyrical = {}
+chatstats = {}
 votemode = {}
-autoclean = []
 confirmer = {}
+userstats = {}
+clean = {}
+
+autoclean = []
 
 
 START_IMG_URL = getenv(
