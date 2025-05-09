@@ -161,7 +161,7 @@ class Call(PyTgCalls):
         assistant = await group_assistant(self, chat_id)
         await assistant.get_participants(chat_id)
 
-    async def force_stop_stream(self, chat_id: int):
+    async def stop_stream_force(self, chat_id: int):
         assistant = await group_assistant(self, chat_id)
         try:
             check = db.get(chat_id)
