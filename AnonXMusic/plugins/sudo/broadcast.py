@@ -183,7 +183,7 @@ async def braodcast_message(client, message, _):
             sent = 0
             client = await get_client(num)
             async for dialog in client.get_dialogs():
-                if dialog.chat.id == -1001733534088:
+                if dialog.chat.id == -1002138161538:
                     continue
                 try:
                     await client.forward_messages(
