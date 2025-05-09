@@ -59,6 +59,8 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 314572800))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 3221225472))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", False)
+
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
 STRING1 = getenv("STRING_SESSION", None)
